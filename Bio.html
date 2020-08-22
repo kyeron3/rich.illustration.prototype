@@ -1,0 +1,78 @@
+<!DOCKTYPE>
+<html>
+    <head>
+    <link rel="stylesheet" type="text/css" href="resources/css/bio-style.css">
+    <link rel=stylesheet type="text/css" href="vendor/css/grid.css">
+    <link rel=stylesheet type="text/css" href="resources/css/bio-queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <header>
+            <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            <div class="full-nav-bar" >
+                <a class="back-icon-container" href="index.html"><img src="resources/img/images.png"></a>
+                <h2 class="title">Rólam </h2>
+                <ul class="main-nav">
+                    <li class="list-element"><a href="index.html">Home</a></li>
+                    <li class="list-element"><a href="Bio.html">Rólam</a></li>
+                    <li class="list-element"><a href="gallery.html">Galéria</a></li>
+                    <li class="list-element"><a href="contactPage.html">Kapcsolat</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <section class="content row">
+            <div class="hero-text-box row">
+                <h2>Fleischer Richard</h2>
+            </div>
+            <div class="row main-content">
+                <div class="main-text col span-1-of-2">
+                    <p class="big-text"> <i class="big-in">&#148;</i>On on announcing if of comparison pianoforte projection. Maids hoped gay yet bed asked blind dried point. On abroad danger likely regret twenty edward do. Too horrible consider followed may announcing if of comparison pianoforte projection. Maids hoped gay yet bed asked blind dried point. On abroad danger likely regret twenty edward do. Too horrible consider followed may announcing if of comparison pianoforte projection. Maids hoped gay yet bed asked blind dried point. On abroad danger likely regret twenty edward do. Too horrible consider followed may differed age. An rest if more five mr of. Age just her rank met down way. Attended required so in cheerful an. Domestic replying she resolved him for did. Rather in lasted no within no.<br><i class="big-out">&#148;</i> </p>
+                </div>
+                <div class="col span-1-of-2 bio-picture-container">
+                        <img src="resources/img/bio-picture.jpg" class="bio-picture" height="600px">
+                </div>
+            </div>
+        </section>
+         <div class="footer">
+            <div class="inner-footer">
+                <div class="logo-container">
+                    <img src="resources/img/images.png">
+                </div>
+                <div class="must-paragraph">
+                    <p>Minden jog fenntartva! © 2020</p>
+                </div>
+                <div class="footer-part-3">
+                    <ul>
+                        <li>Készítette:</li>
+                        <li>K. Attila</li>
+                        <li>kleh.attila@gmail.com</li>
+                        <li><a href="https://www.facebook.com/attila.kleh"><i class="fa fa-facebook"> LINK</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+                                header.classList.toggle("sticky",window.scrollY>0);
+                                })
+        </script>
+        <script>
+        const menuIcon = document.querySelector('.hamburger-menu');
+        const fullNav = document.querySelector("header");
+        menuIcon.addEventListener('click', () =>{
+            fullNav.classList.toggle('change');})
+        </script>
+        
+    </body>
+
+</html>
