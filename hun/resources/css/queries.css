@@ -79,9 +79,6 @@
 @media only screen and (max-width:900px){
         body    
         {
-        background-repeat: repeat;
-        background-size: contain;
-        background-position:top;
         background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(img/phone-background.jpg);
         }
 }
