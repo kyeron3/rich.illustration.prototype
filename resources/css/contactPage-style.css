@@ -111,7 +111,7 @@ header{
     justify-content: center;
     align-content: center;
     list-style: none;
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 1px;
     margin-right: 80px;
     transform: translate(500%);
@@ -358,7 +358,7 @@ header.sticky .line{
 
 .submit-btn:hover{
     color:black;
-    box-shadow: inset 200px 0px 0px 0px #d1d8e0;
+    box-shadow: inset 300px 0px 0px 0px #d1d8e0;
 }
 
 .full-form{

@@ -1,6 +1,6 @@
 /*
 base color
-rgb(45, 152, 218)
+#2d98da;
 */
 
 
@@ -29,9 +29,8 @@ body{
 }
 
 
-
 .row{
-    max-width: 1300px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -112,7 +111,7 @@ header{
     justify-content: center;
     align-content: center;
     list-style: none;
-    font-size: 120%;
+    font-size: 110%;
     letter-spacing: 1px;
     margin-right: 80px;
     transform: translate(500%);
@@ -210,11 +209,19 @@ header.sticky .line{
 /*gallery*/
 /*--------------------------------*/
 
+
 .container-all{
+    display: block;
     margin-top: 300px;
     height: auto;
-    margin-bottom: 100px;
 }
+
+.container-all:nth-of-type(3){
+    display: block;
+    margin-top: 50px;
+    height: auto;
+}
+
 
 .container{
     width: calc(25% - 18px);
@@ -222,7 +229,7 @@ header.sticky .line{
     height: fit-content;
     margin:6px;
     margin-bottom: 30px;
-    display:block;
+    display:table;
     position:relative;
     float:left;
 }
@@ -260,7 +267,12 @@ header.sticky .line{
     display: block;
 }
 
-
+.breakline{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border-bottom: 2px solid #2d98da;
+}
 
 /*--------------------------------*/
 /*footer*/

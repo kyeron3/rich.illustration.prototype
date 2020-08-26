@@ -1,11 +1,18 @@
+/*
+base color
+#2d98da;
+*/
+
+
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
 body{
-    color:#d1d8e0;
+    color: white;
     font-family: 'Lato', 'Ariel', sans-serif;
     font-weight: 300;
     font-size: 20px;
@@ -14,7 +21,6 @@ body{
     letter-spacing: 1px;
 }
 
-
 body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/main-background.jpg);
     background-size: cover;
@@ -22,10 +28,12 @@ body{
     background-attachment: fixed;
 }
 
+
 .row{
-    max-width: 1300px;
+    max-width: 1600px;
     margin: 0 auto;
 }
+
 
 /*--------------------------------*/
 /*header*/
@@ -103,7 +111,7 @@ header{
     justify-content: center;
     align-content: center;
     list-style: none;
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 1px;
     margin-right: 80px;
     transform: translate(500%);
@@ -195,55 +203,81 @@ header.sticky .line{
 }
 
 
+
+
 /*--------------------------------*/
-/*MAIN TEXT*/
+/*gallery*/
 /*--------------------------------*/
 
 
-.content{
+.container-all{
     display: block;
-    margin-top: 300;
+    margin-top: 300px;
+    height: auto;
 }
 
-.hero-text-box h2{
-    color: #2d98da;
-    font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    font-weight: 300;
+.container-all:nth-of-type(3){
+    display: block;
+    margin-top: 50px;
+    height: auto;
 }
 
-.content .big-in{
-    color: #2d98da;
-    font-size: 250%;
-    line-height: 1;
+
+.container{
+    width: calc(25% - 18px);
+    overflow:hidden;
+    height: fit-content;
+    margin:6px;
+    margin-bottom: 30px;
+    display:table;
+    position:relative;
+    float:left;
 }
 
-.content .big-out{
-    color: #2d98da;
-    float: right;
-    font-size: 250%;
-    line-height: 1;
-    margin-right: 30px;
+.container-all img{
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
 }
 
-.big-text{
-    color:#d1d8e0;
-    font-size: 120%;
-    word-spacing: 3px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    font-style: italic;
-    margin: 0 15px;
+.container-all .title{
+    position:absolute;
+    top: 10;
+    left: 10;
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 0%;
+    text-shadow: 1px 5px 10px black;
+    transition: all 0.3s;
 }
 
-.bio-picture{
-    margin-left: 10%;
+.container:hover img{
+  transform: scale(1.2);
+  transition-duration: .3s;
+  filter:grayscale(75%);
+  opacity: .7;
+}
+
+.container:hover span{
+    font-size: 90%;
+    color:white;
+    display: block;
+}
+
+.breakline{
+    display: block;
+    width: 30%;
+    height: 40px;
+    border-bottom: 2px solid #2d98da;
 }
 
 /*--------------------------------*/
 /*footer*/
 /*--------------------------------*/
+
 
 
 .footer{

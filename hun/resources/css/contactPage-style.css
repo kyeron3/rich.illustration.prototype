@@ -1,3 +1,11 @@
+/*
+base color
+rgb(45, 152, 218)
+*/
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -103,7 +111,7 @@ header{
     justify-content: center;
     align-content: center;
     list-style: none;
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 1px;
     margin-right: 80px;
     transform: translate(500%);
@@ -196,49 +204,172 @@ header.sticky .line{
 
 
 /*--------------------------------*/
-/*MAIN TEXT*/
+/*SOCIAL*/
 /*--------------------------------*/
-
 
 .content{
     display: block;
     margin-top: 300;
+    margin-bottom: 200;
 }
 
-.hero-text-box h2{
-    color: #2d98da;
-    font-size: 240%;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    font-weight: 300;
-}
-
-.content .big-in{
-    color: #2d98da;
-    font-size: 250%;
-    line-height: 1;
-}
-
-.content .big-out{
-    color: #2d98da;
-    float: right;
-    font-size: 250%;
-    line-height: 1;
-    margin-right: 30px;
-}
-
-.big-text{
-    color:#d1d8e0;
+.content .social .social-menu{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-left: 60px;
     font-size: 120%;
-    word-spacing: 3px;
-    font-weight: 300;
-    letter-spacing: 0.5px;
-    font-style: italic;
-    margin: 0 15px;
 }
 
-.bio-picture{
-    margin-left: 10%;
+.content .social .social-menu ul li{
+    list-style: none;
+    margin: 20px;
+}
+
+.content .social .fa{
+    font-size: 30px;
+    line-height: 60px;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    color: #000;
+    transition: 0.3s;
+}
+.content .social .fa:hover{
+    color: white;
+    }
+
+.social-menu ul li a{
+    position: relative;
+    display: inline-block;
+    background-color: #bebebe;
+    border-radius: 50%;
+    transition: 0.3s;
+    box-shadow: 0 5px 4px rgba(157, 157, 157, 0.75);
+}
+
+.social-menu ul li span{
+    display: inline-block;
+}
+
+.social-menu ul li a:hover
+{
+    transform: translate(0, -10px);
+    box-shadow: 0 12px 6px rgba(100, 100, 100, 0.9);
+}
+
+.social-menu ul li:nth-child(1) a:hover{
+    background-image: radial-gradient(#dd2a7b 40%, #8134af 80%);
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #1877f2;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #1ed760;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-image: radial-gradient(#d02915 50%, #b23121);
+}
+
+
+
+/*--------------------------------*/
+/*FORM*/
+/*--------------------------------*/
+
+.form{
+    display: block;
+    width: 55%;
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    margin: 20 auto;
+}
+
+.form input{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    border: none;
+    color: #d1d8e0;
+    outline: none;
+}
+
+.form label{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid #d1d8e0;
+}
+
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #2d98da;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+
+}
+
+.input-span{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+
+.form input:focus + .label .input-span,
+.form input:valid + .label .input-span{
+    transform: translateY(-105%);
+    font-size: 16px;
+    color: #2d98da;
+}
+
+.form input:focus + .label::after,
+.form input:valid + .label::after{
+    transform: translateX(0%);
+}
+
+
+.submit-btn{
+    display: block;
+    margin:  0 auto;
+    margin-top: 40px;
+    color: #d1d8e0;
+    background: transparent;
+    border: 2px solid #d1d8e0;
+    border-radius: 0px;
+    padding: 8px 26px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-out 0.4s;
+    box-shadow: inset 0 0 0 0 #d1d8e0;
+    }
+
+.submit-btn:hover{
+    color:black;
+    box-shadow: inset 300px 0px 0px 0px #d1d8e0;
+}
+
+.full-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.full-form h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /*--------------------------------*/
