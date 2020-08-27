@@ -1,0 +1,134 @@
+<!DOCKTYPE html>
+<html lang="de">
+    <head>
+        <link rel="stylesheet" type="text/css" href="resources/css/gallery-style.css">
+        <link rel=stylesheet type="text/css" href="resources/css/gallery-queries.css">
+        <link rel=stylesheet type="text/css" href="vendor/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendor/css/lightbox.min.css">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="vendor/js/lightbox-plus-jquery.min.js"></script>
+        <script>
+            lightbox.option({
+            'maxHeight': 600,
+            'fadeDuration': 300,
+            'imageFadeDuration':300,
+            'resizeDuration':300,
+            })
+        </script>
+    </head>
+    <body>
+        <header>
+            <div class="hamburger-menu">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            <div class="full-nav-bar" >
+                <a class="back-icon-container" href="index.html"><img src="resources/img/images.png"></a>
+                <h2 class="title">Galerie </h2>
+                <ul class="main-nav">
+                    <li class="list-element"><a href="index.html">Zuhause</a></li>
+                    <li class="list-element"><a href="Bio.html">über&#160mich</a></li>
+                    <li class="list-element"><a href="gallery.html">Galerie</a></li>
+                    <li class="list-element"><a href="contactPage.html">Kontakte</a></li>
+                </ul>
+            </div>
+        </header>
+        
+        <div class="container-all row">
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title"></span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem ipsum</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Loremipsum</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Loremipsumasdasddolor</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem ipsum dolor</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem ipsum dolor</span>
+            </div>
+        </div>
+        
+        <div class="breakline row"></div>
+        
+        <div class="container-all row">
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title"></span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem ipsum</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Loremipsum</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Loremipsumasdasddolor</span>
+            </div>
+            <div class="container">
+                <a href="../resources/img/img002.jpg" data-lightbox="gallery"><img src="../resources/img/img002.jpg" alt=""></a> 
+                <span class="title">Lorem ipsum dolor</span>
+            </div>
+            
+        </div>
+        
+        <div class="footer">
+            <div class="inner-footer">
+                <div class="logo-container">
+                    <img src="resources/img/images.png">
+                </div>
+                <div class="must-paragraph">
+                    <p>Alle Rechte vorbehalten! © 2020</p>
+                </div>
+                <div class="footer-part-3">
+                    <ul>
+                        <li>Erstellt von:</li>
+                        <li>K. Attila</li>
+                        <li>kleh.attila@gmail.com</li>
+                        <li><a href="https://www.facebook.com/attila.kleh"><i class="fa fa-facebook"> LINK</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="background"></div>
+        <script>
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+                                header.classList.toggle("sticky",window.scrollY>0);
+                                })
+        </script>
+        <script>
+        const menuIcon = document.querySelector('.hamburger-menu');
+        const fullNav = document.querySelector("header");
+        menuIcon.addEventListener('click', () =>{
+            fullNav.classList.toggle('change');})
+        </script>
+    </body>
+</html>

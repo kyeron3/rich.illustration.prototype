@@ -1,0 +1,200 @@
+@media only screen and (max-width:1350px){
+    .row{
+        padding: 0 2%;
+    }
+    
+    .hero-text-box{
+        position: absolute;
+        padding: 0 2%;
+        left: 15%;
+    }
+    
+    .hero-text-box{
+        padding: 0 2%;
+    }
+    
+    
+    
+    
+    .full-nav-bar{
+        padding: 3% 2%;
+    }
+    
+    header.sticky .full-nav-bar{
+    padding: 0 2%;
+    }
+    
+    .main-logo{
+        height: 100px;
+    }
+    
+    header.sticky .main-logo{
+    height: 75px;
+    }
+}
+@media only screen and (max-width:1000px){
+    
+    .hero-text-box{
+        position: absolute;
+        left: 12%;
+        font-size: 85%;
+    }
+    
+    .language-select ul li img{
+    width: 90px;
+    height: auto;
+    }
+    
+    .language-select{
+    position: absolute;
+    left: 12%;
+    padding: 3% 2%;
+    }
+    
+    .language-select ul li span{
+        font-size: 100%;
+    }
+    
+    .main-nav li{
+        margin-left: 20px;
+        font-size: 100%;
+    }
+    
+    
+    .abilities p{
+        padding: 0;
+        font-size: 80%;
+    }
+    
+    .language-select ul li span{
+        font-size: 85%;
+    }
+}
+
+
+@media only screen and (max-width:600px){
+    .box{
+        width: 100%;
+    }
+    
+    .ability p{
+        padding: 0;
+        font-size: 75%;
+    }
+    
+    .main-nav li{
+        margin-left: 20px;
+        font-size: 68%;
+    }
+    
+    .hero-text-box{
+        left: 10%;
+        font-size: 68%;
+    }
+    
+    .language-select ul li{
+    margin: 0 18;
+    }
+    
+    
+    
+/*--------------foooooooter--------------------------*/    
+    .footer{
+        padding: 30px 0;
+    }
+    
+    .footer .inner-footer{
+        flex-direction: column;
+    }
+    
+    
+    .footer .inner-footer .logo-container{
+    width: 100%;
+    margin-left: 3%;
+    order: 3;
+    }
+    
+    .inner-footer .must-paragraph{
+    order: 1;
+    width: 100%;
+    padding: 1% 1.5% 1% 1.5%;
+    color: white;
+    }
+    
+   .inner-footer .footer-part-3{
+    order: 2;
+    width: 100%;
+    margin-right: 0%;
+    padding: 1.5%;
+    }
+
+    .inner-footer .footer-part-3 ul{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 5%;
+    }
+}
+/*--------------foooooooter--------------------------*/   
+@media only screen and (max-width:450px){
+    .main-nav li{
+        margin-left: 8px;
+        font-size: 57%;
+    }
+    
+    .hero-text-box{
+        top: 38%;
+        left: 7%;
+        font-size: 57%;
+    }
+    
+    .language-select{
+    left: 7%;
+    top: 47%;
+    }
+   
+    .language-select ul li img{
+    width: 75px;
+    }
+    
+    .language-select ul li span{
+        font-size: 72%;
+    }
+    
+    
+    .main-logo{
+        height: 75px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
+    
+    
+    header.sticky .main-logo{
+    height: 65px;
+    margin-right: 5px;
+    margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .main-nav li{
+        letter-spacing: 0px;
+        font-size: 48%;
+        margin-left: 6;
+}
+    .hero-text-box{
+        left: 7%;
+        font-size: 55%;
+    }
+
+    .language-select{
+    left: 5%;
+    top: 55%;
+    }
+   
+    .language-select ul li img{
+    width: 55px;
+    }
+    
+    .language-select ul li span{
+        font-size: 60%;
+    }
