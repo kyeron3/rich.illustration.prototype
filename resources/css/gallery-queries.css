@@ -120,11 +120,6 @@
 
 @media only screen and (max-width: 450px){
     
-    
-    body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(img/phone-background.jpg);
-    }
-    
     .container-all .title{
         font-size: 65%;
         letter-spacing: 2px;

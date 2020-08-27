@@ -1,3 +1,23 @@
+
+
+
+
+
+
+
+
+.background{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-position:center;
+    top: 0; right: 0;
+    z-index: -1000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/main-background.jpg);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -12,14 +32,6 @@ body{
     text-rendering: optimizeLegibility;
     overflow-x: visible;
     letter-spacing: 1px;
-}
-
-
-body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/main-background.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 .row{
