@@ -82,7 +82,7 @@
     }
     
     .title{
-        font-size: 180%;
+        font-size: 160%;
         transform: translate(+30%);
     }
     
@@ -138,6 +138,11 @@
 
 
 @media only screen and (max-width: 450px){
+    
+    .hero-text-box{
+        margin-bottom: 15px;
+    }
+    
     .big-text{
         font-size: 80%;
         word-spacing: 2px;
@@ -167,10 +172,23 @@
     }
     
     .title{
-        font-size: 120%;
-        transform: translate(+30%);
+        font-size: 100%;
+        transform: translate(+18%);
     }
 }
 
-
+@media only screen and (max-width: 350px){
+    
+    .title{
+        letter-spacing: 8px;
+        font-size: 80%;
+        transform: translate(+18%);
+    }
+    
+    .main-nav li{
+        margin-top: 20px;
+    }
+    
+    
+}
 

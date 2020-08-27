@@ -160,3 +160,19 @@
         transform: translate(+30%);
     }
 }
+
+
+@media only screen and (max-width: 350px){
+    
+    .title{
+        letter-spacing: 8px;
+        font-size: 80%;
+        transform: translate(+18%);
+    }
+    .main-nav li{
+        margin-top: 20px;
+    }
+}
+
+
+
