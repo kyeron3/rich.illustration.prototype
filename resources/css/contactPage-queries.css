@@ -91,17 +91,6 @@
     
 }
 
-@media only screen and (max-width:900px){
-        body    
-        {
-        background-repeat: repeat;
-        background-size:contain;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(img/phone-background.jpg);
-        }
-}
-
-
-
 @media only screen and (max-width: 600px){
     .main-nav li{
     font-size: 70%;
