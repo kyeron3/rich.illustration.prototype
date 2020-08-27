@@ -32,11 +32,6 @@
     height: 75px;
     }
 }
-
-
-
-
-
 @media only screen and (max-width:1000px){
     
     .hero-text-box{
@@ -53,7 +48,7 @@
     .language-select{
     position: absolute;
     left: 12%;
-    padding: 0 2%;
+    padding: 3% 2%;
     }
     
     .language-select ul li span{
@@ -76,6 +71,7 @@
     }
 }
 
+
 @media only screen and (max-width:600px){
     .box{
         width: 100%;
@@ -94,11 +90,6 @@
     .hero-text-box{
         left: 10%;
         font-size: 68%;
-    }
-    
-    .language-select{
-    left: 10%;
-    padding: 0 2%;
     }
     
     .language-select ul li{
@@ -158,7 +149,6 @@
     
     .language-select{
     left: 7%;
-    padding: 0 2%;
     top: 47%;
     }
    

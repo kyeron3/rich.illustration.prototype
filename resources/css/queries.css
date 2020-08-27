@@ -48,7 +48,7 @@
     .language-select{
     position: absolute;
     left: 12%;
-    padding: 0 2%;
+    padding: 3% 2%;
     }
     
     .language-select ul li span{
@@ -90,11 +90,6 @@
     .hero-text-box{
         left: 10%;
         font-size: 68%;
-    }
-    
-    .language-select{
-    left: 10%;
-    padding: 0 2%;
     }
     
     .language-select ul li{
@@ -154,7 +149,6 @@
     
     .language-select{
     left: 7%;
-    padding: 0 2%;
     top: 47%;
     }
    
